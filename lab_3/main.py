@@ -1,6 +1,5 @@
 from io import StringIO
 import csv
-
 def task(csv_string):
     f = StringIO(csv_string)
     reader = csv.reader(f, delimiter=',')
